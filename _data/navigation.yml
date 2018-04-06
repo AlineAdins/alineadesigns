@@ -1,0 +1,27 @@
+# functie uitschakelen met '#'
+# dubbele spatie voor de criteria behouden
+
+- name: Hallo
+  description: Hallo
+  #folder: pages/modules
+  permalink: /hallo
+
+- name: Portfolio
+  description: Portfolio
+  #folder: pages/modules
+  permalink: /portfolio
+  
+- name: Fotografie
+  description: Fotografie
+  #folder: pages/modules
+  permalink: /fotografie
+
+- name: Muziek
+  description: Muziek
+  #folder: pages/modules
+  permalink: /muziek
+
+- name: Contact
+  description: Contact
+  #folder: pages/modules
+  permalink: /contact
