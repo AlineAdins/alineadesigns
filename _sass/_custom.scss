@@ -172,7 +172,7 @@ h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(128,255,64,1);
+  background: rgba(128,255,64,0.8);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -260,6 +260,8 @@ img::-moz-selection {
 #Contact {
   padding: 125px 0 250px 0;
 }
+
+
 
 /*MEDIA QUERY */
 
