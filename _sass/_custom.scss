@@ -11,10 +11,9 @@
 }
 
 #mainNavigation .navbar-nav .nav-item .nav-link.active, #mainNavigation .navbar-nav .nav-item .nav-link:hover {
-  color: $clientcolor-2;
+  color: $color-white;
 }
-
-
+ 
 
 /* FOOTER
 ----------------------------------------------
@@ -130,7 +129,8 @@ a:hover {
 
 .fullsizeafbeelding {
   height: 100vh;
-  background: url('image1.jpg');
+  width: 100%;
+  background: url('zelfportret2.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -140,6 +140,15 @@ a:hover {
   -o-background-size: cover;
 }
 
+.tekstheader {
+  text-align: center;
+  padding:200px;
+}
+.tekstheader img {
+  display: block;
+  margin: 0px auto;
+
+}
 h1 {
   color: $clientcolor-1;
 }
@@ -189,7 +198,7 @@ h1 {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -203,7 +212,8 @@ h1 {
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  background-color: #000;
+  opacity: 0.8;
 }
 
 .portfolio-box:focus {
@@ -261,8 +271,31 @@ img::-moz-selection {
   padding: 125px 0 250px 0;
 }
 
+.logo {
+  display: inline-block;
+  height: 40px;
+}
 
 
+.buttons {
+  background-color:#F2164A;
+  border-radius: 10px;
+  border:none;
+}
+
+.buttons:hover {
+  background-color: #AD0B32;
+  border:none;
+}
+.buttons:active {
+ border: none;
+}
+
+
+
+#Muziek {
+  background-color: #000;
+}
 /*MEDIA QUERY */
 
 @media (min-width: 768px) {
@@ -272,4 +305,11 @@ img::-moz-selection {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+}
+
+@media (max-width: 768px) {
+  .tekstheader {
+    text-align: center;
+    padding:90px;
+  }  
 }
