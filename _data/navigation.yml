@@ -11,10 +11,6 @@
   #folder: pages/modules
   permalink: /portfolio
   
-- name: Fotografie
-  description: Fotografie
-  #folder: pages/modules
-  permalink: /fotografie
 
 - name: Muziek
   description: Muziek
