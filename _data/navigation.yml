@@ -10,6 +10,11 @@
   description: Portfolio
   #folder: pages/modules
   permalink: /portfolio
+
+- name: Skills
+  description: Skills
+  #folder: pages/modules
+  permalink: /skills
   
 
 - name: Muziek
